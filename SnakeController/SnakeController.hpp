@@ -7,6 +7,7 @@
 
 #include "IEventHandler.hpp"
 #include "SnakeInterface.hpp"
+#include "SnakeSegments.hpp"
 
 class Event;
 class IPort;
@@ -48,6 +49,9 @@ private:
     };
 
     std::list<Segment> m_segments;
+
+    SnakeSegments m_seg;
+    
     Direction m_currentDirection;
 
     void handleTimeoutInd();

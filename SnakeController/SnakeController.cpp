@@ -1,4 +1,5 @@
 #include "SnakeController.hpp"
+#include "SnakeSegments.hpp"
 
 #include <algorithm>
 #include <sstream>
